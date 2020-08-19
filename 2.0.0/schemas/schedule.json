@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "required": 
+  [
+    "name"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "link": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": 
+        [
+          "schedule",
+          "workout"
+        ],
+        "properties": {
+          "schedule": {
+            "type": "number"
+          },
+          "workout": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}

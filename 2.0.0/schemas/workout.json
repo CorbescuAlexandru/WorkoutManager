@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "creation_date": {
+      "type": "string"
+    },
+    "day": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "sets": {
+            "type": "array"
+          }
+        }
+      }
+    }
+  }
+}
