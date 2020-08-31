@@ -1,0 +1,11 @@
+# Tables
+
+[payload]
+    [[payload.workout]]
+        creation_date = '2001-11-4'
+        [[payload.workout.day]]
+            description = "Odihna"
+            training = 231556
+            day = [3,2]
+            [[payload.workout.day.sets]]
+                exerciseday = 117222
