@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "required": [
+  "plan"
+  ],
+  "properties": {
+    "plan": {
+      "type": "number"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}

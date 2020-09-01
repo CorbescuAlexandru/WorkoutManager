@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": [
+    "date",
+    "weight"
+  ],
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "number"
+    }
+  }
+}

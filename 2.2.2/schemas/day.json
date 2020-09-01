@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "required": [
+    "description",
+    "training",
+    "day"
+  ],
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "training": {
+      "type": "number"
+    },
+    "day": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "meal": {
+      "type": "array",
+      "items": {
+        "properties": {
+          "item": {
+            "type": "array"
+          }
+        }
+      }
+    }
+  }
+}

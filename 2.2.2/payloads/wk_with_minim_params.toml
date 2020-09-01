@@ -1,0 +1,9 @@
+# Tables
+
+[payload]
+    [[payload.login]]
+        username = "test+++"
+        password = "Test123;"
+        csrfmiddlewaretoken = ""
+    [[payload.workout]]
+        creation_date = '2001-11-4'

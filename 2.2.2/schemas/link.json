@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "required": 
+  [
+    "schedule",
+    "workout"
+  ],
+  "properties": {
+    "duration": {
+      "type": "string"
+    },
+    "order": {
+      "type": "string"
+    },
+    "schedule": {
+      "type": "number"
+    },
+    "workout": {
+      "type": "number"
+    }
+  }
+}
